@@ -22,3 +22,17 @@
     border: 1 px solid blue;
     margin: 10px;
 }
+
+.container_third {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container_third>div {
+    content: 'Flex box as two dimensional layout';
+    color: crimson;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    flex: 1 1 33.33%;
+}
