@@ -36,3 +36,25 @@
     margin: 10px;
     flex: 1 1 33.33%;
 }
+
+.container_fourth {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container_fourth>div {
+    flex: 1 1 200px;
+    background: red;
+    border: 1px solid beige;
+    margin: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: black;
+    }
+    .container_fourth{
+        flex-direction: column;
+    }
+  }
